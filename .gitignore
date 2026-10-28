@@ -1,0 +1,29 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.envdir/
+
+# Uploaded documents and user data
+uploaded_docs/
+uploads/
+
+# Logs
+*.log
+logs/
+
+# Frontend dependencies and build output
+node_modules/
+dist/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

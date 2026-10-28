@@ -1,0 +1,30 @@
+#Web Framework
+fastapi
+uvicorn[standard]
+python-multipart  # For file uploads
+
+#Langchain & Ecosystem
+langchain
+langchain-community
+langchain-core
+langchain-openai
+
+#Vector store
+#chromadb
+pinecone
+
+#Embeddings
+#sentence-transformers
+#langchain-google-generative-ai
+langchain-google-genai
+
+#PDF Parsing
+PyPDF  # backend for PyPDFLoader via langchain_community
+
+#Typing and Utilities
+pydantic
+requests
+tqdm
+
+# Logging (optional but recommended)
+loguru
